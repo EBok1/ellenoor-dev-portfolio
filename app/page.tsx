@@ -1,14 +1,14 @@
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
-        <h1 className="text-4xl font-bold mb-4 text-center">
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm">
+        <h1 className="mb-4 text-center text-4xl font-bold">
           Welcome to Ellenoor Dev Portfolio
         </h1>
-        <p className="text-center text-lg mb-8">
+        <p className="mb-8 text-center text-lg">
           Built with Next.js 14, TypeScript, and Tailwind CSS
         </p>
-        <div className="grid text-center lg:grid-cols-3 gap-4">
+        <div className="grid gap-4 text-center lg:grid-cols-3">
           <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 dark:hover:border-neutral-700 dark:hover:bg-neutral-800/30">
             <h2 className="mb-3 text-2xl font-semibold">
               Docs{" "}
@@ -49,4 +49,3 @@ export default function Home() {
     </main>
   );
 }
-
